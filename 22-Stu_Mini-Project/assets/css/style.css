@@ -1,0 +1,69 @@
+body {
+    /*Very light cream color*/
+    background-color: rgba(253,248,245,255);
+    font-family:Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+header {
+    /*Dark emerald green color*/
+    background-color: rgba(38,97,80,255);
+    border-bottom: #ddaf94;
+    border-style: none none solid none;
+    border-width: 10px;
+}
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+header ul li {
+    float: right;
+}
+header ul li a {
+    display: inline-block;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
+h1 {
+    font-size: 2rem;
+}
+section {
+    text-align: center;
+    color: #504846;
+}
+#contact-form {
+    /*Darker cream color. It's giving coffee with less cream.*/
+    background-color: rgba(232,206,191,255);
+    border-color: #deae98;
+    border-style: solid none none none;
+    padding-bottom: 10px;
+}
+#contact-form h2 {
+    padding-top: 10px;
+}
+#contact-form form { 
+    border-color: #deae98;
+    border-style: solid;
+    border-radius: 15px;
+    width: fit-content;
+    padding: 5px 100px;
+    margin-left: 550px;
+}
+input[type=submit] {
+    color: white;
+    background-color: #504846;
+    padding: 5px 50px;
+}
+footer {
+    /*Also dark emerald green color*/
+    background-color: rgba(38,97,80,255);
+    color: white;
+    display: block;
+    padding: 20px;
+    text-align: center;
+    border-color: #504846;
+    border-style: none none solid none;
+    border-width: 10px;
+}
